@@ -85,3 +85,35 @@
   bottom: 0;
   right: 0;
 }
+
+.description {
+  margin: 100px auto 0;
+}
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+}
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__span-accent {
+  font-weight: 600;
+}
