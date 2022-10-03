@@ -232,3 +232,67 @@
   margin-top: 80px;
   z-index: 1;
 }
+.footer {
+  display: flex;
+  flex-basis: 711px;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  padding: 60px 0 40px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  height: 32px;
+  width: 228px;
+}
+.footer__author {
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 18px 0;
+}
+.footer__column_content_info {
+
+}
+.footer__column-heading {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.footer__column-links {
+  margin: 20px 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__column_content_social {
+
+}
+
+.footer__social–icon {
+  background-size: 16px 16px;
+  margin-right: 10px;
+}
