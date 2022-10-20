@@ -32,6 +32,20 @@
   position: absolute;
   top: 64px;
   right: 0;
+  overflow: hidden;
+}
+
+.rotation{
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 .logo {
@@ -298,4 +312,45 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+
+.techniques {
+  width: 80%;
+  margin: 100px auto 0;
+}
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.cards__description {
+  margin: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 50%;
+}
+.cards__item {
+  width: 240px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+.cards__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
 }
